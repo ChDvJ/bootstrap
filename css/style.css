@@ -77,7 +77,63 @@
     	color: #ffffff;
     	margin-bottom: 0;
 
+
     }
+    .idea{
+    	font-family: "mtavruli bold";
+    	font-size:17px;
+    	color: #1A1A1A;
+    }
+    .idea2{
+    	font-family: "mkhedruli book";
+    	font-size: 16px;
+    	color: #666666;
+    }
+    .blogi{
+        font-family: "mtavruli bold";
+        color: 000000;
+        font-size: 30px;
+    }
+    .blogi1{
+    	font-family: "mkhedruli book";
+    	font-size: 17px;
+    	color: #4D4D4D;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: #F86908;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .regular{
+      width: 80%
+    } 
 /* @media (min-width:320px; max-width: 1500px){
  	.banner img{
 	background-image: url(img/banner.svg);
