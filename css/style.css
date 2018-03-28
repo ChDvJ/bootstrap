@@ -11,6 +11,13 @@
 	background-color: #F86908;
 	color: #ffffff;
 }
+/*.headerr{
+	position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    opacity: 0.7
+}*/
 .banner img{
 	background-image: url(img/banner.svg);
 	
@@ -132,8 +139,10 @@
       opacity: 1;
     }
     .regular{
-      width: 80%
+      width: 80%;
+      
     } 
+  
 /* @media (min-width:320px; max-width: 1500px){
  	.banner img{
 	background-image: url(img/banner.svg);
