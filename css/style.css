@@ -149,6 +149,9 @@
       width: 80%;
       
     } 
+    hr{
+    	margin-bottom: 0; 
+    }
   
 /* @media (min-width:320px; max-width: 1500px){
  	.banner img{
